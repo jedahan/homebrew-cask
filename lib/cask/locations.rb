@@ -80,12 +80,12 @@ module Cask::Locations
       @binarydir = _binarydir
     end
 
-    def screensaverdir
-      @screensaverdir ||= Pathname.new('~/Library/Screen Saver').expand_path
+    def screen_saverdir
+      @screen_saverdir ||= Pathname.new('~/Library/Screen Saver').expand_path
     end
 
-    def screensaverdir=(_screensaverdir)
-      @screensaverdir = _screensaverdir
+    def screen_saverdir=(_screen_saverdir)
+      @screen_saverdir = _screen_saverdir
     end
 
     def default_tap

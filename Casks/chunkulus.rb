@@ -5,4 +5,9 @@ class Chunkulus < Cask
   sha1 '344e2574ddaf10433a99aff5ba73488a4d7749cc'
   
   screensaver 'presstube-chunkulus.app/Contents/Resources/Presstube\ -\ Chunkulus.saver'
+
+  def caveats; <<-EOS.undent
+    After installing chunkulus, please log out and then log in again.
+    EOS
+  end
 end

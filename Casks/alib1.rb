@@ -5,4 +5,10 @@ class ALib1 < Cask
   sha1 'e25cd4c2113b4fd6ac9835767b6409ba50e88214'
   
   screensaver 'presstube-alib1.app/Contents/Resources/Presstube\ -\ ALib1.saver'
+
+  def caveats; <<-EOS.undent
+    After installing Alib1, please log out and then log in again.
+    EOS
+  end
+
 end

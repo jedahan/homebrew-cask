@@ -13,7 +13,7 @@ require 'cask/artifact/pkg'
 require 'cask/artifact/prefpane'
 require 'cask/artifact/qlplugin'
 require 'cask/artifact/widget'
-require 'cask/artifact/screensaver'
+require 'cask/artifact/screen_saver'
 require 'cask/artifact/service'
 
 
