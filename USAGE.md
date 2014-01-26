@@ -103,6 +103,8 @@ Default is `~/Library/Widgets`
 Default is `~/Library/Fonts`
 * `--binarydir=/my/path` changes the path for binary symlinks.
 Default is `/usr/local/bin`
+* `--screensaverdir=/my/path` changes the path for Screen Saver symlinks.
+Default is `~/Library/Screen Savers`
 
 To make these changes permanent, you might want to add the following line to your `.bash_profile` or `.zshenv`:
 

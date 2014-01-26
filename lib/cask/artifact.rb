@@ -13,6 +13,7 @@ require 'cask/artifact/pkg'
 require 'cask/artifact/prefpane'
 require 'cask/artifact/qlplugin'
 require 'cask/artifact/widget'
+require 'cask/artifact/screensaver'
 require 'cask/artifact/service'
 
 
@@ -34,6 +35,7 @@ module Cask::Artifact
       Cask::Artifact::Service,
       Cask::Artifact::Block,
       Cask::Artifact::Binary,
+      Cask::Artifact::ScreenSaver,
     ]
   end
 

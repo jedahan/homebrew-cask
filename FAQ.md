@@ -16,6 +16,7 @@ Casks currently have five required fields:
  * __prefpane__: (required for `.prefPane`) indicates which file(s) should be linked into the PreferencePanes folder on installation
  * __qlplugin__: (required for `.qlgenerator`) indicates which file(s) should be linked into the QuickLook folder on installation
  * __font__ : (required for fonts) indicates which file(s) should be linked into the Fonts folder on installation
+ * __screensaver__: (required for `.saver`) indicates which file(s) should be linked into the Screen Saver folder on installation
 
 and five optional fields:
 

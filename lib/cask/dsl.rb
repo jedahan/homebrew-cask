@@ -49,6 +49,7 @@ module Cask::DSL
       :service,
       :colorpicker,
       :binary,
+      :screensaver,
     ]
 
     ARTIFACT_TYPES.each do |type|

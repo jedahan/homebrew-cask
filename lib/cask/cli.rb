@@ -92,6 +92,9 @@ class Cask::CLI
       opts.on("--binarydir=MANDATORY") do |v|
         Cask.binarydir = Pathname(v).expand_path
       end
+      opts.on("--screensaverdir=MANDATORY") do |v|
+        Cask.screensaverdir = Pathname(v).expand_path
+      end
       opts.on("--no-binaries") do |v|
         Cask.no_binaries = true
       end

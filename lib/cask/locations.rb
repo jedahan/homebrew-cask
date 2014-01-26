@@ -80,6 +80,14 @@ module Cask::Locations
       @binarydir = _binarydir
     end
 
+    def screensaverdir
+      @screensaverdir ||= Pathname.new('~/Library/Screen Saver').expand_path
+    end
+
+    def screensaverdir=(_screensaverdir)
+      @screensaverdir = _screensaverdir
+    end
+
     def default_tap
       @default_tap ||= 'phinze-cask'
     end
